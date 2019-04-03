@@ -1,0 +1,287 @@
+.contact-header{
+    width: 100%;
+    height: 910px;
+    background: url('../images/contact-header-bj.png') no-repeat center
+}
+.introduce{
+    display: flex;
+}
+.contact-introduce{
+    width: 1030px;
+    height: 100%;
+    text-align: center;
+    padding-top: 102px;
+    padding-bottom:83px; 
+    margin:  0 auto;
+}
+.contact-introduce h1{
+    font-size:36px;
+    color: #626262;
+    font-family: PingFang-SC-Heavy;
+    margin-bottom: 37px; 
+    line-height: 0;
+}
+.contact-introduce p{
+    font-size: 24px;
+    color: #a2a2a2;
+    text-align: left;
+    text-indent: 50px;
+}
+/* 第二屏 */
+.contact-bot{
+    background-color:#F5F5F5;
+}
+.contact-bot .row{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-bottom{
+    width: 100%;
+    height: 1747px;
+}
+.contact-bottom h2{
+    padding-top: 95px;
+    margin-right: 92px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 0;
+    color: #626262;
+}
+.contact-bottom .bottom-above{
+    width: 100%;
+    height: 1029px;
+    background: url('../images/bottom-above-bj.png') no-repeat 60% 500px; 
+}
+.contact-bottom .bottom-above .above{
+     display: flex;
+     justify-content: center;
+}
+.contact-bottom .bottom-above ul{
+    width: 980px;
+    display: flex;
+    margin: 70px auto 45px;
+    justify-content: space-between;
+}
+.contact-bottom .bottom-above ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 385px;
+    align-items: center;
+    padding: 0;
+}
+.contact-bottom .bottom-above span,p{
+    font-size: 18px;
+    color: #626262;
+}
+.contact-bottom .bottom-above em{
+    width: 68px;
+    height: 68px;
+    margin-top: 36px;
+    line-height: 68px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    background: #4CC5FC;
+}
+.contact-bottom .bottom-above ul li .list-figure{
+    margin-top: 11px;
+}
+.contact-bottom .bottom-above ol{
+    display: flex;
+    justify-content: space-between;
+    width: 715px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+.contact-bottom .bottom-above ol li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.contact-bottom ol li .list-pic{
+    margin-bottom: 15px;
+}
+/* 第三屏 */
+.footer-bottom{
+    width: 100%;
+    display: flex;
+}
+.contact .bottom-below{
+    width: 1220px;
+    margin: 0 auto;
+}
+.bottom-below ul{
+    /* width: 1220px; */
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-below ul li:nth-of-type(1){
+    padding: 40px;
+    /* width: 650px; */
+    height: 360px;
+    /* padding: 0; */
+}
+.bottom-below ul li:nth-of-type(2){
+    /* width: 570px; */
+    height: 360px;
+    padding: 0;
+}
+.bottom-below ul li .list-title{
+    font-size: 22px;
+    color: #0089ca;
+    font-family: PingFAng-SC-Heavy;
+    margin-bottom: 46px;
+    display: inherit;
+}
+.bottom-below ul li p{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.bottom-below ul li p img{
+    width: 60px;
+    height: 60px;
+    margin-right: 13px;
+    display: inline-block;
+}
+@media screen and (min-width: 320px) and (max-width: 679px){
+    .contact-header {
+        height: 300px;
+        background-size: 160% 100%;
+    }
+    /* 第二屏 */
+    .contact .contact-bot .row{
+        display: block;
+    }
+    .contact-introduce {
+        padding-top: 33px;
+        padding-bottom: 23px;
+    }
+    .contact-introduce h1 {
+        font-size: 18px;
+        margin-bottom: 19px;
+    }
+    .contact-introduce p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .contact-bottom{
+        height: 100%;
+        padding-bottom:20px;
+    }
+    .contact-bottom .bottom-above {
+        background: url('../images/contact-above-bj.png') no-repeat center 310px;
+        background-size: 100% 65%;
+        padding: 0;
+    }
+    .contact-bottom h2 {
+        padding-top: 34px;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .contact-bottom .bottom-above .above {
+        padding: 0;
+    }
+    .contact-bottom .bottom-above ul {
+        margin: 5px auto 10px;
+        padding: 0px;
+    }
+    .contact-bottom .bottom-above em{
+        margin-top: 50px;
+    }
+    .contact-bottom .bottom-above ul li .list-figure {
+        margin-top: 18px;
+    }
+    .contact-bottom .bottom-above ul li {
+        height: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .contact-bottom .bottom-above span:nth-of-type(1){
+        width: 68px;
+        height: 79px;
+    }
+
+    .contact-bottom .bottom-above span, p {
+        font-size: 12px;
+    }
+    .contact-bottom .bottom-above span:nth-of-type(2){
+        margin-top: 8px;
+    }
+    .contact-bottom .bottom-above ul li:nth-of-type(4){
+        position: absolute;
+        top: 325px;
+        right: 55px;
+    }
+    .above-two{
+        margin-top: 305px;
+        text-align: center;
+    }
+    .contact-bottom .bottom-above ol{
+        padding-right: 60px;
+        margin-top: 45px;
+    }
+    .contact-bottom .bottom-above ol li{
+        padding: 0;
+    }
+    .contact-bottom .bottom-above ol li:nth-of-type(1){
+        position: absolute;
+        top: -319px;
+        left: 25px;
+    }
+    .contact-bottom ol li .list-pic{
+        margin-bottom: 0px;
+    }
+    .bottom-above .list em{
+        margin-top: 35px;
+    }
+    /* 第四屏 */
+    .contact-bottom .bottom-below{
+        padding: 0;
+    }
+    .contact-bottom .bottom-below .bottom-pic{
+        height: 143px;
+        padding: 0;
+    }
+    .footer-bottom{
+        width: auto;
+        display: inherit;
+    }
+    .contact .bottom-below{
+        width: 100%;
+    }
+    .bottom-below ul{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .bottom-below ul li:nth-of-type(1) {
+        padding: 25px;
+        height: 100%;
+        background: #fff;
+    }
+    .bottom-below ul li .list-title {
+        font-size: 16px;
+        margin-bottom: 23px;
+    }
+    .bottom-below ul li p img{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        display: inline-table;
+    }
+    .bottom-below ul li p em{
+        display: inline-block;
+    }
+
+    .bottom-below ul li:nth-of-type(2) {
+        height: 180px;
+        overflow: hidden;
+    }
+}

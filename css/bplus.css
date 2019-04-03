@@ -1,0 +1,675 @@
+/* 第一屏 */
+.bplus .inea-head{
+    width: 100%;
+    height: 978px;
+    background: url('../images/app-head-bj.png') no-repeat center;
+    overflow:hidden;
+} 
+.head-centent{
+    display: flex;
+    justify-content: space-between;
+    width: 1125px;
+    padding: 144px 0;
+    margin: auto;
+    align-content: center;
+}
+.head-centent .centent-left{
+    display: flex;
+    height: 614px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 184px;
+    font-size: 36px;
+    color: #fff;
+    font-family: PingFang-SC-Heavy;
+}
+.centent-left span{
+    line-height: 0;
+}
+.centent-left span:nth-of-type(1){
+    font-size: 103px;
+    margin-bottom: 25px;
+}
+.centent-left span:nth-of-type(2){
+    font-size: 48px;
+    margin-bottom: -25px;    
+}
+.centent-left span:nth-of-type(3){
+    font-size: 25px;
+}
+.left-download{
+    display: flex;
+    justify-content: space-between;
+}
+.left-download button{
+    display: inherit;
+    padding: 0;
+    border:0px;
+    background-color:transparent;
+    width: 279px;
+    height: 77px;
+}
+.left-download button a{
+    width: 279px;
+    height: 77px;
+}
+.left-download button:nth-of-type(1){
+    margin-right: 15px;
+}
+.left-download button img{
+    width: 100%;
+    height: 100%;
+}
+
+.centent-right{
+    width: 565px;
+    height: 794px;
+}
+/* 第二屏 */
+.bplus .inea-message{
+    width: 100%;
+    height: 1323px;
+    background: url('../images/app-message-bj.png') no-repeat bottom;
+} 
+.inea-message .mess-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.mess-title h3{
+    font-size: 36px;
+    color: #72a8ff;
+    font-family:PingFang-SC-Heavy;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+.mess-title p{
+   font-size: 24px;
+   color: #a2a2a2;
+   font-family: MicrosftYaHei;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.inea-message .mess-correlation{
+    width: 1370px;
+    margin: 0px auto;
+}
+.mobile-correlation{
+    width: 375px;
+    height: 448px;
+    display: none;
+}
+.mess-correlation span{
+    position: relative;
+    display: inline-block;
+}
+.mess-correlation span img{
+    width: 100%;
+    height: 100%;
+}
+.mess-correlation span:nth-of-type(1){
+    width: 338px;
+    height: 338px;
+    top: 75px;
+    left: 85px;
+}
+.mess-correlation span:nth-of-type(2){
+    width: 114px;
+    height: 124px;
+    top: -75px;
+    left: 340px;
+}
+.mess-correlation span:nth-of-type(3){
+    width: 57px;
+    height: 57px;
+    top: 275px;
+    left: -122px;
+}
+.mess-correlation span:nth-of-type(4){
+    width: 345px;
+    height: 100%;
+    top: 345px;
+}
+.mess-correlation span:nth-of-type(5){
+    width: 330px;
+    height: 330px;
+    top: 325px;
+    right: 40px;
+}
+.mess-correlation span:nth-of-type(6){
+    width: 48px;
+    height: 53px;
+    top: 415px;
+    right: 1215px;
+}
+.mess-correlation span:nth-of-type(7){
+    width: 336px;
+    height: 301px;
+    top: 100px;
+    left: 150px;
+    transform: rotate(20deg);
+}
+.mess-correlation span:nth-of-type(8){
+    width: 114px;
+    height: 125px;
+    top: 115px;
+    left: 485px;
+}
+.mess-correlation span:nth-of-type(9){
+    width: 69px;
+    height: 73px;
+    top: 200px;
+    left: 850px;
+}
+/* 第三屏 */
+.bplus .inea-education{
+    width: 100%;
+    height: 947px;
+    background: url('../images/app-education-bj.png') no-repeat center;
+} 
+.inea-education .tion{
+    width: 1212px;
+    padding-top: 192px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tion-left{
+    display: flex;
+    justify-content: space-between;
+}
+.tion-left span{
+    width:386px;
+    height:100%;
+    display: inline-block;
+}
+.tion-right{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: #fff;
+    font-family: PingFang-SC-Heavy;
+    font-weight: 600;
+}
+.tion-right .right-next{
+    text-align: right;
+}
+.tion-right .right-ceonter{
+    width: 35px;
+    height: 8px;
+    background: #fff;
+    margin: 20px auto;
+    margin-bottom: 35px;
+    margin-right: 210px;
+}
+.tion-right p{
+    margin-top: 130px;
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    font-weight: 500;
+}
+/* 第四屏 */
+.bplus .inea-social{
+    width: 100%;
+    height: 1270px;
+    background: url('../images/app-social-bj.png') no-repeat center;
+} 
+.inea-social .cial{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cial .cial-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cial h3{
+    line-height: 27px;
+    font-size: 36px;
+    color: #72a8ff;
+    font-family: PingFang-SC-Heavy;
+    font-weight: 600;
+}
+.cial em{
+    font-size: 24px;
+    color: #72a8ff;
+    margin-bottom: 53px;
+}
+.cial-title span{
+    font-size: 24px;
+    color: #a2a2a2;
+    font-family: MicrosoftYaHei;
+}
+.cial-title span:nth-of-type(3){
+    margin-bottom: 32px;
+}
+.cial .cial-molib{
+    width: 453px;
+    height: 850px;
+}
+.cial-buttom{
+    text-align: center;
+}
+/* 第五屏 */
+.bplus .inea-something{
+    width: 100%;
+    height: 890px;
+    background-color: #7DAAFF;
+} 
+.inea-something .thing{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.inea-something .thing-left{
+    position: relative;
+    top: -70px;
+    left: 100px;
+    width: 459px;
+    height: 100%;
+    padding:0px;
+}
+.inea-something .thing-center{
+    width: 500px;
+    padding: 0 90px;
+    color: #fff;
+}
+.thing-center h3{
+    margin-top: 213px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: PingFang-SC-Heavy;
+}
+.thing-center .ter-pole{
+    width: 35px;
+    height: 8px;
+    margin-top: 20px;
+    margin-bottom: 125px;
+    background: #fff;
+    display: inline-block;
+}
+.thing-center span{
+    font-size: 24px;
+    display: inherit;
+    margin-bottom: 50px;
+}
+.inea-something .thing-right{
+    top: 185px;
+    right: 100px;
+    width: 459px;
+    padding: 0px;
+    height: 100%;
+}
+/* 第六屏 */
+.bplus .inea-buttom{
+    width: 1200px;
+    height: 1115px;
+    margin: 0 auto;
+    margin-top: 188px;
+    position: relative;
+}
+.inea-buttom .ttonm-sup{
+    padding-top: 138px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height:420px; 
+    background: #C2CBFE;
+}
+.ttonm-sup h3{
+    font-size: 36px;
+    font-weight: 700;
+    width: 190px;
+    margin-left: 125px;
+}
+.ttonm-sup span{
+    font-size: 24px;
+    width: 225px;
+    margin-right: 125px;
+}
+.bplus .ttom-center {
+    position: absolute !important;
+    width: 479px;
+    height: 902px;
+    top: 82px;
+    left: 50%;
+    margin-left: -270px;
+    z-index: 2;
+}
+.ttom-below{
+    width: 100%;
+    height: 595px;
+    text-align: center;
+    background: url('../images/app-ttom-below-bj.png') no-repeat center;
+}
+/* 第七屏 */
+.bplus .inea-footer{
+    width: 100%;
+    height: 854px;
+    margin-top: 50px;
+    background: #79AAFF;
+}
+.inea-footer .row{
+      display: flex;
+    justify-content: center;
+}
+.bplus  .footer-cneter{
+    width: 1200px;
+    padding: 0;
+}
+.footer-left{
+    position: relative;
+    top: 335px;
+    left: 0px;
+    z-index: 2;
+    padding: 0;
+    color: #fff;
+}
+.footer-left h3{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: NotoSanHans-Black;
+}
+.left-pole{
+    width: 35px;
+    height: 8px;
+    background: #fff;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.footer-left p{
+    font-size: 24px;
+}
+.footer-right{
+    height: 937px;
+    position: relative;
+    top: -83px;
+    right: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 679px){
+     /* 第一屏 */
+     .bplus .inea-head {
+        width: 100%;
+        height: 510px;
+        background-size: auto 100%;
+    }
+    .head-centent {
+        width: 100%;
+        padding: 46px 0;
+    }
+    .head-centent .centent-left {
+        height: 430px;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .centent-left span:nth-of-type(1) {
+        font-size: 36px;
+        margin-top: 221px;
+        margin-bottom: 20px;
+    }
+    .centent-left span:nth-of-type(2) {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .centent-left span:nth-of-type(3) {
+        font-size: 9px;
+        margin-bottom: 35px;
+        margin-top: 0;
+    }
+    .centent-left span:nth-of-type(4) {
+        position: absolute;
+        top: 50px;
+        font-size: 14px;
+        font-family: PingFang-SC-Medium;
+    }
+    .centent-left span:nth-of-type(5){
+        position: absolute;
+        top: 70px;
+        font-size: 14px;
+        font-family: PingFang-SC-Medium;
+    }
+    .head-centent .left-download{
+        /* width: 52%; */
+        padding:0;
+
+    }
+    .left-download button{
+        width: 140px;
+        height: 38px;
+        padding-bottom: 50px;
+        margin-right: 10px;
+    }
+    .left-download button a{
+        width: 140px;
+        height: 38px;
+    }
+    .left-download button:nth-of-type(1){
+        margin-right: 5px;  
+        margin-left: 10px;
+    }
+
+    .common .centent-right{
+        position: absolute;
+        height: auto;
+        top: 70px;
+        right: 0px;
+    }
+      /* 第二屏 */
+    body .bplus .inea-message{
+        height: 500px;
+        background:none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 90px;
+    }
+    .inea-message .mess-title {
+        padding-right:20px; 
+        padding-left: 20px;
+    }
+    .mess-title h3 {
+        font-size: 22px;
+        font-family: NotoSanHans-Black;
+        margin-bottom: 24px;
+    }
+    .mess-title p span{
+        font-size: 16px;
+        text-indent: 20px;
+    }
+   .bplus .inea-message {
+        height: 430px;
+        background-size: auto 65%;
+    }
+    .mess-correlation{
+        display: none;
+    }
+    .inea-message  .mobile-correlation{
+        display: block;
+        height: 448px;
+        padding: 0;
+    }
+    /* 第三屏 */
+    .bplus .inea-education {
+        height: 550px;
+        background-size: auto 100%;
+    }
+    .inea-education .tion {
+        position: relative;
+        width: 100%;
+    }
+    .inea-education .tion .tion-left{
+        padding: 75px 0;
+    }
+    .tion-left span {
+        width: auto;
+        margin: -10px;
+        padding: 0;
+        height: auto;
+    }
+
+    .bplus .tion-right {
+        position: absolute;
+        top: 40px;
+        padding-top: 0;
+        font-size: 22px;
+    }
+    .tion-right .right-ceonter {
+        margin-bottom: 10px;
+        margin-right: 305px;
+    }
+    .tion-right .right-next {
+        text-align: left;
+    }
+    .tion-right p {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    /* 第四屏 */
+    .bplus .inea-social {
+        height: 900px;
+        background-size: auto 300px;
+        margin-top: 40px;
+        /* background: url(../images/app-social-bj.png) no-repeat center 340px; */
+    }
+    .cial h3 {
+        font-size: 22px;
+    }
+    .cial em {
+        font-size:17px;
+        margin-bottom: 18px;
+    }
+    .cial-title span {
+        font-size: 14px;
+        text-indent: 22px;
+        line-height: 24px;
+    }
+    .cial .cial-molib{
+        width: 248px;
+        height: 425px;
+    }
+    /* 第五屏 */
+    .bplus .inea-something {
+        position: relative;
+        height: 445px;
+    }
+    .inea-something .thing-left {
+        top: -40px;
+        left: 5px;
+        height: 352px;
+        padding: 0;
+        margin: 0;
+    }
+    .inea-something .thing-right {
+        margin-top: 0px;
+        padding: 0;
+        right: 6px;
+        top: -40px;
+        height: 352px;
+    }
+    .inea-something .thing-center {
+        position: absolute;
+        /* width: 355px; */
+        top: 90px;
+        bottom: 0;
+        color: #fff;
+    }
+    .inea-something .thing-center {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .thing-center h3 {
+        font-size: 22px;
+    }
+    .thing-center .ter-pole {
+        margin-bottom: 10px;
+    }
+    .thing-center span {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    /* 第六屏 */
+    .bplus .inea-buttom{
+        width: 100%;
+        height: 700px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .inea-buttom .row{
+        width: 100%;
+        margin: 0;
+    }
+    .inea-buttom .ttonm-sup {
+        padding-top: 20px;
+        height: 200px;
+    }
+    .ttonm-sup h3 {
+        font-size: 20px;
+        width: 120px;
+        margin-left: 0;
+    }
+    .ttonm-sup span {
+        font-size: 15px;
+        margin-top: 30px;
+        width: 165px;
+        margin-right: 0;
+    }
+    .bplus .ttom-center {
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 155px;
+        left: 50%;
+        margin-left: -150px;
+        z-index: 2;
+    }
+    .ttom-below {
+        height: 360px;
+    }
+    /* 第七屏 */
+    .bplus .inea-footer {
+        height: 655px;
+        margin-top: 0;
+    }
+    .inea-footer .row {
+        position: relative;
+    }
+    .inea-footer .footer-right{
+        position: absolute;
+        height:355px;
+        left: 0px;
+        padding: 0 40px;
+        top: -35px;
+    }
+    .inea-footer .footer-left {
+        padding-top: 0;
+        top: 320px;
+        left: 0px;
+        z-index: 2;
+        height: 336px;
+        background: #fff;
+    }
+    .footer-left h3 {
+        font-size: 22px;
+        color: #79AAFF;
+    }
+    .footer-left p {
+        font-size: 14px;
+        color: #a2a2a2;
+    }
+    .left-pole {
+        background: #79AAFF;
+        margin-bottom: 17px;
+    }
+}

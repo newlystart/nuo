@@ -1,0 +1,431 @@
+.iheart img{
+    width: 100%;
+    height: 100%;
+}
+/* 第一屏 */
+.iheart .heart-header{
+    height: 843px;
+    padding-top: 245px;
+    background: url('../images/heart-header-bj.png') no-repeat center; display: flex;
+}
+.heart-header .row{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 1120px;
+    margin: auto;
+
+}
+.iheart .header-container{
+    width: 1200px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1200px;
+}
+.iheart .head-left{
+    width: 791px;
+    height: 613px;
+    position: relative;
+    top: 40px;
+}
+.iheart .head-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: PingFang-SC-Heavy;
+    color: #fff;
+    position: relative;
+    right: 100px;
+    width: 620px;
+    height: 620px;
+}
+.head-right h2{
+    margin-top: 98px;
+    font-size: 53px;
+    font-weight: 600;
+}
+.head-right h3{
+    margin-top: 21px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.head-right button{
+    height: 77px;
+    padding: 0;
+    border: 0px;
+    background-color: transparent;
+}
+.head-right button:nth-of-type(1){
+    margin-top: 70px;
+}
+.head-right button:nth-of-type(2){
+    margin-top: 27px;
+}
+
+/* 第二屏 */
+.heart-msg{
+    width: 100%;
+    height: 568px;
+    margin:0 auto;
+    margin-top: 145px;
+    color: #fff;
+    font-family: PingFang-SC-Heavy;
+ 
+}
+.heart-msg .row{
+    display: flex;
+    justify-content: center;
+}
+.heart-msg .msg-prev{
+     width: 335px;
+     height: 568px;
+     padding: 119px 42px 0px 33px;
+     background: url('../images/iheart-heart-msg01.png') no-repeat center;
+}
+.msg-prev h2{
+    font-size: 36px;
+} 
+.msg-prev h3{
+    font-size: 27px;
+}
+.msg-prev span:nth-of-type(1){
+    width: 35px;
+    height: 8px;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.msg-prev span:nth-of-type(2){
+    font-size: 24px;
+    display: inline-block;
+}
+.heart-msg .msg-next{
+    width: 864px;
+    height: 568px;
+    padding: 0;
+}
+/* 第三屏 */
+.heart-figure{
+    width: 100%;
+    height: 775px;
+    margin-top: 36px;
+    margin-bottom:70px; 
+    padding-top: 100px;
+    background: url('../images/iheart-heart-figure-bj01.png') no-repeat bottom;
+    display: flex;
+    justify-content: center;
+}
+.figure{
+    width: 1165px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.figure-prev{
+    width: 440px;
+    padding-left: 5px;
+    color: #53B49E;
+    font-family: PingFang-SC-Heavy;
+}
+.figure-prev h2{
+    font-size: 36px;
+}
+.figure-prev h3{
+    font-size: 21px;
+    font-family: PingFang-SC-Heavy;
+}
+.figure-prev span:nth-of-type(1){
+    width: 35px;
+    height: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inherit;
+    background-color: #53B49E;
+}
+.figure-prev span:nth-of-type(2){
+    font-size: 24px;
+}
+.figure-next{
+    width: 718px;
+    height: 632px;
+    margin-top: 45px;
+    background: url('../images/iheart-heart-figure-bj02.png') no-repeat bottom;
+    background-size:100% 100%; 
+}
+.figure-next span{
+    width: 453px;
+    height: 829px;
+    display: inherit;
+    margin: -120px auto;
+}
+/* 第四屏 */
+.heart-health{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 129px;
+}
+.heart-health .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.health{
+    color: #53B49E;
+    font-family: PingFang-SC-Heavy;
+    display: flex;
+    flex-direction: column;
+}
+.health h2{
+    font-size: 36px;
+    text-align: center;
+}
+.health em{
+    width: 35px;
+    height: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 320px;
+    background: #53B49E;
+}
+.health span{
+    font-size: 24px;
+}
+.health span:nth-of-type(3){
+    margin-bottom: 40px;
+}
+/* 第六屏 */
+.heart-recommend{
+    width: 100%;
+    height: 669px;
+    background: url('../images/iheart-heart-recommend-bj.png') no-repeat center; 
+    padding: 150px 409px;
+}
+.heart-recommend .row{
+    display: flex;
+    justify-content: flex-end;
+}
+.iheart .recommend{
+    width: 480px;
+    margin-right: 400px;
+    color: #ffffff;
+    font-family: PingFang-SC-Heavy;
+}
+.recommend h2{
+    font-size: 36px;
+}
+.recommend h3{
+    font-size: 21px;
+    font-family: PingFang-SC-Heavy;
+}
+.recommend span:nth-of-type(1){
+    width: 35px;
+    height: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inherit;
+    background-color: #ffffff;
+}
+.recommend span:nth-of-type(2){
+    font-size: 24px;
+}
+@media screen and (min-width: 320px) and (max-width: 679px){
+    .iheart .heart-header {
+        padding-top: 73px;
+        height: 500px;
+        margin-bottom: 17px;
+    }
+    .heart-header .row{
+        width: 100%;
+    }
+    .iheart .header-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .iheart .head-left {
+        height: 275px;
+        top: 100px;
+        padding: 0;
+    }
+
+    .row .head-right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 520px;
+    }
+    .head-right .tit-pic{
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        width: 50%;
+    }
+    .head-right h2 {
+        margin-top: 0px;
+        font-size: 24px;
+    }
+    .head-right h3 {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .head-right button{
+        position: absolute;
+        height: 35px;
+        bottom: 105px;
+    }
+    .head-right button:nth-of-type(1) {
+        left: 0px;
+        padding-right: 5px;
+        padding-left: 20px;
+        /* bottom: 70px; */
+    }
+    .head-right button:nth-of-type(2) {
+        right: 0px;
+        padding-right: 20px;
+        padding-left: 5px;
+        /* bottom: 70px; */
+    }
+    /* 第二屏 */
+    .heart-msg {
+        height: 445px;
+        margin-top: 0px;
+    }
+    .heart-msg .row {
+        flex-direction: column;
+    }
+    .heart-msg .msg-prev {
+        width: 100%;
+        height: 180px;
+        padding: 0px;
+        background: #ffffff;
+        text-align: center;
+    }
+    .msg-prev h2,.msg-prev h3{
+        font-size: 22px;
+        color: #4FD9B1;
+        font-weight: 600;
+        font-family: NotoSansHans-Black;
+    }
+    .msg-prev span:nth-of-type(1) {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        display: inherit;
+        margin: 0 auto;
+        background: #4FD9B1;
+    }
+    .msg-prev span:nth-of-type(2) {
+        width: 90%;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #A2A2A2;
+    }
+    .heart-msg .msg-next {
+        width: 100%;
+        height: 274px;
+    }
+    /* 第三屏 */
+    .heart-figure {
+        height: 540px;
+        background: url(../images/iheart-heart-figure-bj01.png) no-repeat 0 435px;
+
+        padding-top: 0px;
+        margin-top: 35px;
+    }
+    .figure {
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .figure-prev {
+        height: 200px;
+        padding: 0px 50px;
+        color: #4FD9B1;
+        text-align: center;
+    }
+    .figure-prev h2 {
+        font-size: 22px;
+        font-family: NotoSansHans-Black;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+    .figure-prev h3 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .figure-prev span:nth-of-type(2) {
+        font-size: 14px;
+        color: #a2a2a2;
+    }
+
+    .figure-next {
+        margin-top: 0px;
+        height: 400px;
+        background-size: 90%;
+    }
+    .figure-next em{
+        position: absolute;
+        bottom: -40px;
+    }
+    /* 第四屏 */
+    .heart-health {
+        margin-top: 70px;
+        margin-bottom: 42px;
+    }
+    .health {
+        text-align: center;
+    }
+    .health h2 {
+        font-size: 22px;
+        font-weight:600;
+        font-family: NotoSansHans-Black; 
+    }
+    .health em {
+        margin: 10px auto;
+    }
+    .health span {
+        font-size: 14px;
+        color: #A2A2A2;
+        font-family: MicrosoftYaHei;
+    }
+    /* 第五屏 */
+    .heart-recommend {
+        height: 150px;
+        padding: 0px;
+        background-size: 100% 100%;
+        margin-bottom: 240px;
+    }
+    .heart-recommend .row {
+        display: flex;
+        justify-content: center;
+    }
+    .iheart .recommend{
+        width: auto;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .recommend h2 {
+        font-size: 22px;
+        font-weight: 600;
+        font-family: NotoSansHans-Black;
+        text-align: right;
+        margin-top: 70px;
+        
+    }
+    .recommend h3 {
+        font-size: 16px;
+        margin-top: 0;
+        text-align: right;
+    }
+    .recommend span:nth-of-type(2) {
+        margin-top: 60px;
+        display: inherit;
+        font-size: 14px;
+        color: #a2a2a2;
+    }
+}

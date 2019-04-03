@@ -1,0 +1,115 @@
+.page-container{
+    overflow: visible;
+}
+
+/* 轮播图 */
+.main_visual{
+    width: 100%;
+    /* min-height: 900px; */
+    height: 900px;
+    overflow:hidden;
+    position: relative;
+}
+.main_image {
+    width: 100%;
+    height: 100%;
+    overflow: initial;
+    position: relative;
+}
+.main_image ul{
+    width:9999px;
+    position:absolute;
+    top:0;
+    left:0
+}
+.main_image li{
+    float:left;
+    width:100%;
+}
+.main_image li span{
+    display:block;
+    width:100%;
+
+}
+.main_image li span img{
+    width: 100%;
+    height: 100%;
+}
+.main_image li a{
+    display:block;
+    width:100%;
+    height:850px
+}
+div.flicking_con{
+    position:absolute;
+    bottom: 35px;
+    left:50%;z-index:999;
+    width:300px;
+    height:21px;
+    margin-left:-100px;
+}
+div.flicking_con a{
+    float:left;
+    width:14px;
+    height:14px;
+    margin-right:22px;
+    padding:0;
+    background:#fff;
+    border-radius: 50%;
+    display:block;
+  
+}
+div.flicking_con a.on{
+    background-position:0 -21px;
+    width: 32px;
+    border-radius:10px;
+    background: #40abd6;
+}
+.page-common{
+    height: 32vh !important;
+}
+.main_image .nape-mobile{
+    display: none;
+}
+
+.main_image em{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.main_image em .loading{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    width:200px;
+    height:200px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+@media screen and (min-width: 320px) and (max-width: 678px){
+    .main_image li span{
+        height: 100%;
+    }
+    .main_image .nape-pc{
+        display: none ;
+    }
+    .main_image .nape-mobile{
+        display: block ;
+    }
+    .main_image em .loading{
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+
+}
